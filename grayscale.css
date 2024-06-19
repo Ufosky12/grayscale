@@ -1,0 +1,215 @@
+.sec1{
+    background-image:url('/image/bg-masthead.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-attachment: scroll;
+}
+@media only screen and (max-width: 768px){
+    .sec1{
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0%;
+        height: 100%;}
+    .navh1 a{
+        padding: 0px;
+        color: black;
+        text-decoration: none;
+        font: 700;
+        margin: 0px; }
+    .nav{
+        padding: 0px;}
+    .sec1b{
+        padding: 0px;}
+    .p1{
+        font-size: 50px !important;
+         padding: 0px;
+        color: black;}
+    .p2{
+        font-size: 0px;
+    padding: 0px;}
+    .pa{
+        padding: 5px 10px;}
+        .sec2b{
+            padding: 0px ;
+            color: white;
+            background-color: black;
+            width:100%;
+        }.sec2c{
+            background-image: url(/image/bsip.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-top: 300px;
+            width: 100%;
+        }.sec3{
+            flex-wrap: wrap;
+            padding:0%;
+            margin: 80px 0px 0px 0px;
+
+        }.sec3img{
+        padding: 0%;
+        }
+        .feature h3 {
+            padding: 60px 0px 0px 0px !important;
+        }.container{
+            max-width: 720px;
+        }.col-md-10{
+            flex: 0 auto;
+            width:83.3333%
+        }.row{
+            flex-wrap: wrap;
+        }.signup-section{
+            padding: 0% !important;
+        }.signup-section .form-signup input{
+            width: 100%;
+        }
+    
+}
+.sec1b{
+    padding: 150px 24px 150px 24px ;
+}
+.nav{
+    display: flex;
+    text-align: center;
+    padding: 10px 150px 10px 150px ;
+    justify-content: space-between;
+    background-color: transparent;
+}
+.navh1 a{
+    font-size: 25px;
+    font: bolder;
+    text-decoration: none;
+    text-decoration: none;
+    color: black;
+}
+.navh2 li{
+    float: left;
+    margin: 0px 20px 0px 20px ;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}.navh2 li:hover{
+    color: steelblue;
+    text-decoration: underline;
+}.p1{
+    font-size: 90px;
+    color:rgb(255, 255, 255, 0.5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 90px 0px 0px 0px;
+}.p2{
+    font-size: 20px;
+    color:rgb(255, 255, 255, 0.5);
+    padding-top: 0px;
+    padding-bottom: 30px;
+}.pa{
+    text-decoration: none;
+    background-color:rgb(67, 179, 179);
+    padding: 15px 30px 15px 30px;
+    color: white;
+    border-radius: 5px;}
+    .sec2b{
+        padding: 50px 0px 40px 0px ;
+        text-align: center;
+        color: white;
+        background-color: black;
+    }.sec2c{
+        background-image: url(/image/bsip.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 300px;
+    }
+    .feature h3{
+        text-align: center;
+        padding: 200px 0px 0px 0px;
+        font-weight: bolder;
+    }.feature p{
+        text-align: center;
+        font-size: 20px;
+        color: rgba(0 0 0 0.5);
+        opacity: 1;
+}.bg-black{
+    background-color: black;
+    opacity: 1;
+}
+.project-section {
+    padding: 260px 0px 260px 0px;
+}
+.signup-section{
+    background-image: url('/image/bs4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 160px;
+    background-attachment: scroll;
+    background-position: center;
+}.signup-section .form-signup input{
+    font-size: 80%;
+    padding: 20px 32px;
+    height: auto;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 14px;
+    border: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}.signup-section .form-signup .btn {
+    padding: 20px 32px;
+    font-size: 80%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 0%;
+    background-color: #64a19d;
+}
+.mx-auto{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}.text-centre{
+    text-align: center !important;
+    
+}
+.contact-section{
+    padding-top: 80px;
+}.px-4{
+    padding: 44px 24px 44px 24px;
+}.mb-3{
+    margin-bottom: 8px !important;
+}.svg-inline--fa{
+    height: 16px;
+
+}.text-primary{
+    opacity: 1 !important;
+    color: (100, 161, 157) !important;
+}.contact-section .card{
+    border-bottom:4px solid #64a19d ;
+}.contact-section .card h4{
+    font-size: 12.8px;
+    letter-spacing: 2.4px;
+}.contact-section .card hr{
+    width: 48px;
+    opacity: 1;
+    border-color: red;
+    border-width: 4px;
+    border-top: 1px solid;
+}
+.contact-section .social{
+    margin: 80px 0px 0px 0px;
+    background-color: black;
+}.contact-section .social a{
+    color: rgb(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    height: 48px;
+    width: 48px;
+    line-height: 48px;
+    text-align: center;
+    margin: 0px 8px 0px 8px;
+}
+
+
+   
